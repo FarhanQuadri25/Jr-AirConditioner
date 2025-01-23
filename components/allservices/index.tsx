@@ -1,5 +1,4 @@
 "use client";
-import { ReactNode } from "react";
 import styles from "./styles.module.scss";
 import { Separator } from "@/components/ui/separator";
 import { SERVICES } from "@/components/main/about/data";
