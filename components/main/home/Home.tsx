@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import styles from "./styles.module.scss";
 
 const Home = () => {
@@ -29,12 +28,12 @@ const Home = () => {
           </p>
 
           {/* Second Paragraph */}
-           <p className="text-lg lg:text-xl font-medium font-poppins leading-relaxed text-white">
+          <p className="text-lg lg:text-xl font-medium font-poppins leading-relaxed text-white">
             With years of industry experience, our team of highly trained
             technicians is committed to delivering cost-effective and reliable
-            solutions for all types of air conditioning systems. Whether it's a
-            quick fix or a major installation, we guarantee the highest
-            standards of service and customer satisfaction.
+            solutions for all types of air conditioning systems. Whether it
+            &apos;s a quick fix or a major installation, we guarantee the
+            highest standards of service and customer satisfaction.
           </p>
 
           {/* <p className="text-lg lg:text-xl font-medium font-poppins leading-relaxed text-white">

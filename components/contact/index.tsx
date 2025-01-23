@@ -11,7 +11,7 @@ export default function index() {
       </h1>
       <div className="font-poppins">
         {Contact.map((contact) => (
-          <div className="bg-gray-100 p-8 rounded-xl shadow-2xl max-w-2xl mx-auto">
+          <div key={contact.id} className="bg-gray-100 p-8 rounded-xl shadow-2xl max-w-2xl mx-auto">
             <h2 className="text-4xl text-pretty font-bold mb-4 text-center">
               {contact.title}
             </h2>

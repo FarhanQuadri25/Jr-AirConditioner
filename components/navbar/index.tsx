@@ -1,8 +1,6 @@
 "use client";
 import Link from "next/link";
 import styles from "./styles.module.scss";
-import { motion } from "motion/react";
-import Image from "next/image";
 
 interface NavLink {
   name: string;
