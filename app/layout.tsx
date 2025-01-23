@@ -14,9 +14,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Jr Air Conditioner",
   description: "Ac Services",
-  icons:{
-    icon:"/svg/logo.svg"
-  }
+  icons: {
+    icon: "/svg/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
         <div className="block md:hidden">
           <Sidebar />
         </div>
-        <div className="hidden md:block">
+        <div className="hidden w-full md:block">
           <Navbar />
         </div>
         {children}

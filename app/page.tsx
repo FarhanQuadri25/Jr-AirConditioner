@@ -8,7 +8,6 @@ export default function HomePage() {
     <>
       <Carousel />
       <Home />
-
       <AllServices />
       <Contact />
     </>

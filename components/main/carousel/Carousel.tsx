@@ -24,7 +24,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full h-[400px] overflow-hidden mt-8 sm:mt-[4.2rem]">
+    <div className="relative w-full h-[400px] overflow-hidden mt-4 sm:mt-[4.2rem]">
       {/* Carousel Container */}
       <div className="relative w-full h-full">
         <AnimatePresence initial={false}>

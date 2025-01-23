@@ -11,7 +11,9 @@ const Sidebar = () => {
     <>
       {/* Logo Section */}
       <div className="flex justify-between items-center p-4">
-        <h1 className="text-3xl font-bold font-olive">Logo</h1>
+        <h1 className="text-3xl font-bold font-olive text-newaccent">
+          Jr-AirConditioner
+        </h1>
       </div>
 
       {/* Burger Button */}

@@ -4,12 +4,13 @@
   top: 0;
   width: 60px;
   height: 60px;
-  background-color: var(--accent-color);
+  background-color: var(--yellow-color);
   border-radius: 100%;
   display: block;
   align-content: center;
   z-index: 999;
   cursor: pointer;
+  
   .burger {
     width: 100%;
     &::after,
