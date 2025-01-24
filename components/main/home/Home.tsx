@@ -16,7 +16,7 @@ const Home = () => {
         <div className="flex flex-col items-start lg:items-start space-y-6">
           {/* Heading or Title */}
           <h3 className="text-2xl sm:text-3xl  md:text-4xl  text-newprimary font-bold font-inter leading-tight">
-            JR Air Conditioner - Reliable HVAC Services for Year-Round Comfort
+            JR Air Conditioner - Reliable HVAC Services for Your Comfort
           </h3>
 
           {/* First Paragraph */}
